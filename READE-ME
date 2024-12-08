@@ -1,0 +1,28 @@
+
+
+Libft
+📖 About
+Libft is a custom C library that reimplements many standard library functions and introduces additional utility functions. It’s designed as a foundational project at 42 School to deepen understanding of C and provide a reusable library for future projects.
+
+💡 Purpose
+Learn how standard C library functions work.
+Build a reusable library for future coding projects.
+Practice memory management, algorithms, and pointers
+
+🚀 Usage
+1. Build the Library
+Run the following command in the project directory:
+
+make
+This generates libft.a, the compiled library.
+
+Compile your program with Libft:
+gcc -Wall -Wextra -Werror your_file.c -L. -lft -o your_program
+
+📂 Features
+Reimplementations of functions like strlen, strcpy, atoi, etc.
+Utility functions such as ft_split, ft_strjoin, and more.
+Optional linked list management functions if needed.
+
+📝 Note
+This project follows the 42 School Norm.
